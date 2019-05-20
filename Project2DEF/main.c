@@ -2,9 +2,9 @@
 // EL PROYECTO DEBE SER DESARROLLADO EN GRUPOS DE A 3 PERSONAS MAXIMO
 //
 // DESARROLLADO POR:
-// Daniel Galindo - 201813517
-// Santiago Estupiñán - 201813414
-// Jaime Torres - 201815481
+// Daniel Galindo - 201813517 d.galindo 
+// Santiago Estupiñán - 201813414 s.estupinan
+// Jaime Torres - 201815481 ja.torresl
 
 #define _CRT_SECURE_NO_DEPRECATE 
 #include <stdlib.h> 
@@ -342,7 +342,7 @@ void leerMensaje(Imagen * img, unsigned char msg[], int l, int n) {
 				
 			mov eax, [ebp - 12]; eax apunta a k
 				add eax, 0
-				cmp eax, 0xFF; eax(k)se compara con 0
+				cmp eax, 0xFF; eax(k)se compara con -1
 				je sumarForExterno
 
 				mov eax, [ebp - 4]; eax apunta a pos
